@@ -6,6 +6,8 @@
 
 想把每一步讲得更细，可以接着读[《一只鸟，一张地图》十二章网页](https://bird-map-ecology-david.robbleeglish.chatgpt.site/)：里面有完整算例、更多分析图，以及占域和现场调查的延伸章节。[网页文件与数据](website/README.md)也已收入这个仓库。
 
+需要对照课堂原件时，可以进入[课程课件下载页](course/courseware/README.md)。13 份课件按基础原理、数据与变量、建模工具、评价报告、尺度投影和扩散分为 6 组，同时提供 PPTX 与 PDF。
+
 ## 第一幕：先弄清手里的点
 
 从 GBIF 取得的记录会落在不同的地方，也可能有许多记录挤在同一个气候像元里。D1 先检查坐标能否对应到气候数据，再让每个像元只留一条记录。这样做，是为了减轻重复采样对模型的影响。
@@ -59,20 +61,20 @@ D14 把回应变量换成鸟类调查中的**计数**，用 `biomod2` 比较六�
 | 课程 | 今天追问什么？ | 对应材料 |
 | --- | --- | --- |
 | Day 0 | 工具和数据从哪里来？ | [英文准备清单](README.md#day-0-environment-setup-toolchain-installation-and-course-asset-preparation) |
-| Day 1 | 出现记录怎样进入气候格网？ | [D1.R](D1.R) |
-| Day 2 | 没有可靠缺失点，拿什么作对照？ | [D2.R](D2.R) |
-| Day 3 | 变量和测试成绩怎样检查？ | [D3.R](D3.R) |
-| Day 4 | 改变环境输入，地图怎样响应？ | [D4.R](D4.R) |
-| Day 5 | Maxent 的灵活程度怎样调？ | [D5.R](D5.R) |
-| Day 6 | 背景范围、分组方式怎样影响评价？ | [D6.R](D6.R) |
-| Day 7 | 地理地图与环境空间怎样对应？ | [D7.R](D7.R) |
-| Day 8 | 栅格、矢量和投影怎样读？ | [D8.R](D8.R) |
-| Day 9 | 原产地与入侵地占据的环境怎样比较？ | [D9.R](D9.R) |
-| Day 10 | 时间和空间的尺度有多重要？ | [D10.R](D10.R) |
-| Day 11 | 模型遇到没见过的温度会怎样画？ | [D11.R](D11.R) |
-| Day 12 | 不同空间分组长什么样？ | [D12.R](D12.R) |
-| Day 13 | 一张地图怎样换成环境坐标？ | [D13.R](D13.R) |
-| Day 14 | 计数数据与多算法比较有什么不同？ | [D14.R](D14.R) |
-| Day 15 | 专家范围图能帮忙检查什么？ | [D15.R](D15.R) |
+| Day 1 | 出现记录怎样进入气候格网？ | [D1.R](upstream/day-scripts/D1.R) |
+| Day 2 | 没有可靠缺失点，拿什么作对照？ | [D2.R](upstream/day-scripts/D2.R) |
+| Day 3 | 变量和测试成绩怎样检查？ | [D3.R](upstream/day-scripts/D3.R) |
+| Day 4 | 改变环境输入，地图怎样响应？ | [D4.R](upstream/day-scripts/D4.R) |
+| Day 5 | Maxent 的灵活程度怎样调？ | [D5.R](upstream/day-scripts/D5.R) |
+| Day 6 | 背景范围、分组方式怎样影响评价？ | [D6.R](upstream/day-scripts/D6.R) |
+| Day 7 | 地理地图与环境空间怎样对应？ | [D7.R](upstream/day-scripts/D7.R) |
+| Day 8 | 栅格、矢量和投影怎样读？ | [D8.R](upstream/day-scripts/D8.R) |
+| Day 9 | 原产地与入侵地占据的环境怎样比较？ | [D9.R](upstream/day-scripts/D9.R) |
+| Day 10 | 时间和空间的尺度有多重要？ | [D10.R](upstream/day-scripts/D10.R) |
+| Day 11 | 模型遇到没见过的温度会怎样画？ | [D11.R](upstream/day-scripts/D11.R) |
+| Day 12 | 不同空间分组长什么样？ | [D12.R](upstream/day-scripts/D12.R) |
+| Day 13 | 一张地图怎样换成环境坐标？ | [D13.R](upstream/day-scripts/D13.R) |
+| Day 14 | 计数数据与多算法比较有什么不同？ | [D14.R](upstream/day-scripts/D14.R) |
+| Day 15 | 专家范围图能帮忙检查什么？ | [D15.R](upstream/day-scripts/D15.R) |
 
 想进一步拆开每一幕的原理，可读[课程故事：图背后的问题](docs/课程故事.md)；准备运行代码时，看[学习导航](docs/学习导航.md)。原始代码出自[乔慧捷老师的公开课程仓库](https://github.com/qiaohj/ENM_curriculum)，遵循仓库内的 [MIT 许可](LICENSE)。课程数据见[乔老师发布的 Figshare 条目](https://doi.org/10.6084/m9.figshare.33453802)（CC BY 4.0）；本页的文字、作图和解释由 fork 维护者独立整理，不代表课程官方说明。
