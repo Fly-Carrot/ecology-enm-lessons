@@ -560,7 +560,7 @@ AI 辅助生成的 GEE 代码先在小范围运行。数据集 ID、band 名、�
 
 - 上游 GitHub 代码：MIT License。保留 `Copyright (c) 2026 Qiao, Huijie`。
 - Figshare 数据版本 2：CC BY 4.0。引用 Qiao, Huijie (2026)，保留 DOI 和版本。
-- 13 份课程课件：经权利人确认允许公开，以 PPTX 与 PDF 两种格式保存于 `course/courseware/`；课件不自动适用仓库代码的 MIT 许可。
+- 13 份课程课件：经权利人确认允许公开；公开仓库仅保留 PDF，PPTX 原件留在本地课程资料库。课件不自动适用仓库代码的 MIT 许可。
 - Zhu 等 2020 大黄蜂论文：文章首页标明 CC BY 4.0。
 - 本项目原创中文讲解、索引、代码适配和复现图：单独声明作者和许可。
 
